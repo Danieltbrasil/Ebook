@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guia da Dieta Flexível - Emagreça com Prazer</title>
+  <meta name="description" content="Baixe o ebook gratuito e aprenda a emagrecer sem abrir mão dos seus alimentos favoritos. Método realista e prático para quem tem rotina corrida." />
+  <meta name="keywords" content="dieta flexível, emagrecer, ebook gratuito, saúde, alimentação saudável" />
+  <meta name="author" content="Seu Nome ou Marca" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%);
+      color: #333;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn, button {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      font-size: 1.2em;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .btn:hover, button:hover {
+      background-color: #218838;
+    }
+    .cover {
+      width: 100%;
+      max-width: 350px;
+      margin: 0 auto 30px;
+      height: auto;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      max-width: 800px;
+      margin: 30px auto;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #333;
+    }
+    ul li::before {
+      content: "✅ ";
+      color: #28a745;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    section:nth-child(even) {
+      background: #f0f4f2;
+    }
+    #hero {
+      background: #f8f8f8;
+      padding: 40px 20px;
+    }
+    #hero h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    #hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    #hero a {
+      margin-top: 20px;
+      background: #ff8c42;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+    #hero a:hover {
+      background: #e07832;
+    }
+    .grid-two-cols {
+      max-width: 900px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      font-size: 1.1rem;
+      text-align: left;
+      color: #333;
+    }
+    .testimonial {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 1.1rem;
+      color: #333;
+      background: #fff9f2;
+      padding: 30px 20px;
+      border-radius: 8px;
+    }
+    .testimonial strong {
+      display: block;
+      margin-top: 10px;
+      color: #28a745;
+    }
+    form {
+      margin-top: 30px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #333;
+    }
+    input[type="email"] {
+      width: 100%;
+      padding: 12px 15px;
+      font-size: 1rem;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+      transition: border-color 0.3s ease;
+    }
+    input[type="email"]:focus {
+      border-color: #28a745;
+      outline: none;
+    }
+    button[type="submit"] {
+      width: 100%;
+      background-color: #ff8c42;
+      font-size: 1.2rem;
+      padding: 15px;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button[type="submit"]:hover {
+      background-color: #e07832;
+    }
+    footer {
+      padding: 20px;
+      background: #333;
+      color: white;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .grid-two-cols {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      ul li::before {
+        content: "✔️ ";
+      }
+      form {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section id="hero" aria-label="Apresentação do ebook">
+    <h1>Descubra Como Emagrecer com Prazer Mesmo com a Rotina Corrida</h1>
+    <p>Baixe o ebook gratuito e aprenda a emagrecer sem abrir mão da pizza do fim de semana.</p>
+    <!-- Link com âncora para o formulário -->
+    <a href="#botao" aria-label="Ir para o formulário de captura para baixar o ebook">QUERO RECEBER O EBOOK AGORA</a>
+  </section>
+
+  <section aria-labelledby="sec-why">
+    <h2 id="sec-why">Cansado de dietas malucas e resultados que não duram?</h2>
+    <p>Se você tem uma rotina puxada, trabalha muito e sente culpa toda vez que come algo "fora da dieta", este ebook é pra você. Chega de sofrer com restrições extremas ou passar horas na academia. A proposta aqui é realista, prática e feita para gente normal.</p>
+  </section>
+
+  <section aria-labelledby="sec-learn">
+    <h2 id="sec-learn">Neste Ebook, Você Vai Aprender:</h2>
+    <ul>
+      <li>Por que dietas restritivas não funcionam e como sair desse ciclo.</li>
+      <li>Como encaixar hábitos saudáveis em meio ao caos do dia a dia.</li>
+      <li>Dicas práticas para comer o que gosta sem sabotar o progresso.</li>
+      <li>Estratégias simples de organização alimentar e treino rápido.</li>
+      <li>Como manter a motivação mesmo quando a rotina aperta.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="sec-ideal-for" style="background: white;">
+    <h2 id="sec-ideal-for">Este Material é Ideal Para Você Que:</h2>
+    <div class="grid-two-cols" role="list">
+      <ul role="list">
+        <li>Trabalha muito e tem pouco tempo.</li>
+        <li>Não abre mão dos seus prazeres alimentares.</li>
+        <li>Já tentou várias dietas, mas nenhuma durou.</li>
+      </ul>
+      <ul role="list">
+        <li>Quer resultados sem radicalismos.</li>
+        <li>Busca leveza e equilíbrio no emagrecimento.</li>
+        <li>Precisa de orientações simples e aplicáveis.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-label="Depoimento de Mariana" class="testimonial">
+    <h2>“Eu consegui, mesmo com filhos, trabalho e zero tempo!”</h2>
+    <p>“Antes eu achava que emagrecer era abrir mão de tudo. Com este método, aprendi a comer melhor, sem culpa, sem pressa e sem passar fome. Em 2 meses, perdi 6kg e ganhei mais energia e autoestima!”</p>
+    <strong>– Mariana, 34 anos</strong>
+  </section>
+
+<div class="container" id="botao">
+    <img class="cover" src="https://via.placeholder.com/350x500.png?text=Capa+do+Ebook" alt="Capa do Ebook Dieta Flexível" />
+    <h1>Emagreça Comendo o Que Você Gosta!</h1>
+    <p>
+      Descubra como a dieta flexível pode transformar sua vida. Sem sofrimento, sem cortar pizza, chocolate ou pão! <br>
+      Baixe agora o guia completo e dê o primeiro passo para um novo estilo de vida.
+    </p>
+    <a class="btn" href="https://pay.kirvano.com/74b73658-9689-47a2-b440-f4a66eb49b51" target="_blank">
+      Quero o Guia Agora
+    </a>
+</div>
+
+
+  <footer role="contentinfo">
+    © 2025 | Ebook "Emagreça Sem Neurose" | Todos os direitos reservados.  
+    <br />Feito com equilíbrio, para uma vida mais leve.
+  </footer>
+</body>
+</html>
